@@ -58,6 +58,9 @@ a{
     color: black;
     text-decoration: none;
 }
+main{
+	margin: 0 20vw 0 20vw;
+}
 
 /*==========================================================================
                                     TOPO
@@ -76,7 +79,7 @@ header nav ul li.atual a{
 	color: #ff6464;
 }
 /*==========================================================================
-                                Conteudo
+                                Conteudo-works
 ==========================================================================*/
 main.works{
 	margin: 0 15vw 0 15vw;
@@ -87,7 +90,7 @@ main.Works h1{
 main.works section{
 	border-bottom: 1px solid gray;
 	padding: 0 0 4vw 0;
-}
+} 
 main.works section:last-child{
 border: none;
 }
@@ -106,9 +109,60 @@ main.works section p span{
 	padding:2px 10px 2px 10px
 }
 /*==========================================================================
+                                Conteudo-home page
+==========================================================================*/ 
+main section.banner{
+	display: flex;
+	margin: 2vw 0 1vw 0;
+}
+section.banner h1{
+	font-weight: bold;
+	font-size: 2rem;
+}
+section.banner p{
+	margin: 2vw 5vw  1.5vw 0 ;
+}
+section.banner button{
+	background-color: #ff6464;
+	border-radius: 5;
+	color: white;
+	padding: 10PX 9PX 10PX 9PX ;
+	border: none;
+	font-size: 1.5;
+}
+section.rt-post{
+	background: #edf4fa;
+}
+section.rt-post h2{
+	font-size: 3rem;
+}
+section.rt-post h3{
+	font-weight: bold;
+font-size: 1.3rem;
+
+}
+section.rt-post ul{
+	display: flex;
+	margin: 0 2px 0 0;
+	border-radius:2px;
+}
+section.rt-post ul li{
+	background-color: white;
+	margin: 0 2vw 0 2vw;
+}
+
+/*==========================================================================
                                 FOOTER
 ==========================================================================*/
 footer{
 	text-align: center;
 	margin: 2px 0 2px 0;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+}
+footer ul li{
+	margin: 0 7px 7px 7px ;
+	font-size: 1.6rem;
 }
