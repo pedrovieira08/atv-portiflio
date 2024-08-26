@@ -150,7 +150,20 @@ section.rt-post ul li{
 	background-color: white;
 	margin: 0 2vw 0 2vw;
 }
-
+section.ft-works h2{
+	margin: 2px 2px 2px 2px;
+}
+section.ft-works ul{
+	margin: 2vw 5vw 2vw 5vw;
+	display: flex;
+}
+section.rt-works ul li h3{
+	font-size: 1.3rem;
+	margin: 2vw 5vw 2vw 5vw;
+}
+section.rt-works ul li p{
+	margin: 2px 5px 2px 5px;
+}
 /*==========================================================================
                                 FOOTER
 ==========================================================================*/
